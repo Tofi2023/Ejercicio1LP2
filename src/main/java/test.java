@@ -24,7 +24,7 @@ public class test {
 
 		try {
 
-			Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/instituto?useSSL=false","root", "estofaneromedina15");
+			Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/universidad?useSSL=false","root", "estofaneromedina15");
 
 			if(con!=null) {
 
